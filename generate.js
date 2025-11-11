@@ -1,4 +1,4 @@
-// generate.js - Generador automático de Top IMDb en español
+// generate.js — Generador automático del Top IMDb en Español (Trakt + OMDb) con reintentos
 
 import fetch from "node-fetch";
 import fs from "fs/promises";
@@ -7,81 +7,89 @@ const TRAKT = process.env.TRAKT_CLIENT_ID;
 const OMDB = process.env.OMDB_KEY;
 
 if (!TRAKT || !OMDB) {
-  console.error("Faltan variables de entorno: TRAKT_CLIENT_ID u OMDB_KEY");
+  console.error("❌ Faltan las variables de entorno TRAKT_CLIENT_ID u OMDB_KEY");
   process.exit(1);
 }
 
-async function fetchTrakt(limit = 300) {
-  const res = await fetch(`https://api.trakt.tv/movies/popular?limit=${limit}`, {
-    headers: {
-      "Trakt-Api-Version": "2",
-      "Trakt-Api-Key": TRAKT,
-    },
-  });
-  return res.ok ? await res.json() : [];
+// ---- Función con reintentos y pausa ----
+async function fetchWithRetry(url, options = {}, retries = 3, delay = 1500) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const res = await fetch(url, options);
+      if (res.ok) return await res.json();
+      console.warn(`⚠️ Petición fallida (${res.status}), intento ${i + 1}/${retries}`);
+    } catch (err) {
+      console.warn(`⚠️ Error de red (${err.message}), intento ${i + 1}/${retries}`);
+    }
+    await new Promise((r) => setTimeout(r, delay)); // espera entre intentos
+  }
+  console.error(`❌ Fallo definitivo en ${url}`);
+  return null;
 }
 
-async function getOmdb(imdbId) {
-  const r = await fetch(`https://www.omdbapi.com/?apikey=${OMDB}&i=${imdbId}&plot=short`);
-  return r.ok ? await r.json() : null;
+async function fetchTrakt(limit = 200) {
+  const res = await fetchWithRetry(
+    `https://api.trakt.tv/movies/popular?limit=${limit}`,
+    {
+      headers: {
+        "Trakt-Api-Version": "2",
+        "Trakt-Api-Key": TRAKT,
+      },
+    },
+    3,
+    1500
+  );
+  return Array.isArray(res) ? res : [];
 }
 
 async function main() {
-  const trakt = await fetchTrakt(350);
-  const seen = new Map();
+  console.log("🚀 Generando catálogo IMDb en Español...");
+  const traktMovies = await fetchTrakt(250);
+  const seen = new Set();
   const results = [];
 
-  for (const item of trakt) {
-    const imdb = item.ids?.imdb;
+  for (const movie of traktMovies) {
+    const imdb = movie?.ids?.imdb;
     if (!imdb || seen.has(imdb)) continue;
-    seen.set(imdb, true);
+    seen.add(imdb);
 
-    const om = await getOmdb(imdb);
-    if (!om || om.Response !== "True") continue;
+    const omdbUrl = `https://www.omdbapi.com/?apikey=${OMDB}&i=${imdb}&plot=short`;
+    const omdb = await fetchWithRetry(omdbUrl, {}, 3, 2000);
+    if (!omdb || omdb.Response !== "True") continue;
 
-    const lang = (om.Language || "").toLowerCase();
-    const rating = parseFloat(om.imdbRating) || 0;
+    const lang = (omdb.Language || "").toLowerCase();
+    const rating = parseFloat(omdb.imdbRating) || 0;
 
     if (lang.includes("spanish") && rating > 0) {
       results.push({
-        id: om.imdbID,
-        title: om.Title,
-        year: parseInt(om.Year) || null,
-        poster: om.Poster && om.Poster !== "N/A" ? om.Poster : null,
-        plot: om.Plot && om.Plot !== "N/A" ? om.Plot : "",
+        id: omdb.imdbID,
+        type: "movie",
+        name: omdb.Title,
+        year: parseInt(omdb.Year) || null,
+        poster:
+          omdb.Poster && omdb.Poster !== "N/A"
+            ? omdb.Poster
+            : "https://www.moviesindetail.com/icon-192.webp",
+        description: `${omdb.Plot || "Película hablada en español"} ⭐ IMDb ${rating}`,
         rating,
       });
+      console.log(`✅ ${omdb.Title} (${omdb.imdbRating})`);
     }
 
-    await new Promise((r) => setTimeout(r, 350)); // pausa entre llamadas
+    // pausa entre peticiones para evitar bloqueo (1 req/seg)
+    await new Promise((r) => setTimeout(r, 1000));
   }
 
   results.sort((a, b) => b.rating - a.rating);
   const top = results.slice(0, 150);
 
   await fs.mkdir("data", { recursive: true });
-  await fs.writeFile(
-    "data/imdb_top_spanish.json",
-    JSON.stringify(
-      {
-        metas: top.map((p) => ({
-          id: p.id,
-          type: "movie",
-          name: p.title,
-          year: p.year,
-          poster: p.poster || "https://www.moviesindetail.com/icon-192.webp",
-          description: `${p.plot} ⭐ IMDb ${p.rating}`,
-        })),
-      },
-      null,
-      2
-    )
-  );
+  await fs.writeFile("data/imdb_top_spanish.json", JSON.stringify({ metas: top }, null, 2));
 
-  console.log("✅ Top IMDb en español generado con", top.length, "películas");
+  console.log(`🎉 Catálogo generado con ${top.length} películas.`);
 }
 
-main().catch((e) => {
-  console.error(e);
+main().catch((err) => {
+  console.error("❌ Error inesperado:", err);
   process.exit(1);
 });
