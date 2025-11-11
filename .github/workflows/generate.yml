@@ -8,19 +8,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checko
+      - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "18"
+
       - name: Instalar dependencias
-  run: npm install
+        run: npm install
+
       - name: Generar catálogo
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           OMDB_KEY: ${{ secrets.OMDB_KEY }}
         run: node generate.js
+
       - name: Commit del archivo generado
         run: |
           git config user.name "github-actions[bot]"
