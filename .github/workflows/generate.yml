@@ -4,6 +4,9 @@ on:
     - cron: "0 3 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,3 +33,11 @@ jobs:
         with:
           name: imdb_top_spanish
           path: data/imdb_top_spanish.json
+
+      - name: Commit keepalive
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "keepalive: prevent workflow disable" || echo "No changes to commit"
+          git push
