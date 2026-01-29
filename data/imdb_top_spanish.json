@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt34956443",
-      "type": "movie",
-      "name": "Ne Zha 2",
-      "year": 2025,
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjIyMDc3ZmQtZTQyYy00NDhhLTlmMWEtYzM3MDYwNjRmY2NkXkEyXkFqcGc@._V1_SX300.jpg",
-      "description": "After a great catastrophe, the souls of Nezha and Aobing are saved, but their bodies face ruin. To give them new life, Taiyi Zhenren turns to the mystical seven-colored lotus in a daring bid to rebuild them and change their fate. ⭐ IMDb 8",
-      "rating": 8
-    },
-    {
       "id": "tt30144839",
       "type": "movie",
       "name": "One Battle After Another",
@@ -134,6 +125,15 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMmE1MzkyMDctZjgzNC00YzkxLWI1YTctY2E4YzNjNmI1YTljXkEyXkFqcGc@._V1_SX300.jpg",
       "description": "Criminal activists hijack a gala, taking 300 hostages. One extremist plans mass murder as a message to the world. An Ex-soldier turned window cleaner now works to rescue the hostages. ⭐ IMDb 5.2",
       "rating": 5.2
+    },
+    {
+      "id": "tt11092020",
+      "type": "movie",
+      "name": "Shadow Force",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTUyZTUyOTMtOGU5OC00MmM1LTk0NWUtMjNlMTU4ZTkwMDRjXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "An estranged couple with a bounty on their heads must go on the run with their son to avoid their former employer, a unit of shadow ops that has been sent to kill them. ⭐ IMDb 4.7",
+      "rating": 4.7
     }
   ]
 }
