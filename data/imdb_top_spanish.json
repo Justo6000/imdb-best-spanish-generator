@@ -64,24 +64,6 @@
       "rating": 6.6
     },
     {
-      "id": "tt23149780",
-      "type": "movie",
-      "name": "Eden",
-      "year": 2024,
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmU3YjQ1YzAtMGU4OS00MWJkLTg2NGMtM2NmMmQ3NTM3NjNjXkEyXkFqcGc@._V1_SX300.jpg",
-      "description": "Based on a factual account of a group of outsiders who settle on a remote island only to discover their greatest threat isn't the brutal climate or deadly wildlife, but each other. ⭐ IMDb 6.5",
-      "rating": 6.5
-    },
-    {
-      "id": "tt33474172",
-      "type": "movie",
-      "name": "A Widow's Game",
-      "year": 2025,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDAxYTVmMTYtOGYzYi00YjFkLTkyMGEtMzc0MTUzZmY3YzFjXkEyXkFqcGc@._V1_SX300.jpg",
-      "description": "A murder mystery about a young widow who is the prime suspect in her husband's stabbing death. ⭐ IMDb 6.2",
-      "rating": 6.2
-    },
-    {
       "id": "tt29644189",
       "type": "movie",
       "name": "Black Phone 2",
@@ -116,24 +98,6 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BYzFjMzNjOTktNDBlNy00YWZhLWExYTctZDcxNDA4OWVhOTJjXkEyXkFqcGc@._V1_SX300.jpg",
       "description": "Four misfits are suddenly pulled through a mysterious portal into a bizarre cubic wonderland that thrives on imagination. To get back home they'll have to master this world while embarking on a quest with an unexpected expert craf... ⭐ IMDb 5.6",
       "rating": 5.6
-    },
-    {
-      "id": "tt27812086",
-      "type": "movie",
-      "name": "Cleaner",
-      "year": 2025,
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmE1MzkyMDctZjgzNC00YzkxLWI1YTctY2E4YzNjNmI1YTljXkEyXkFqcGc@._V1_SX300.jpg",
-      "description": "Criminal activists hijack a gala, taking 300 hostages. One extremist plans mass murder as a message to the world. An Ex-soldier turned window cleaner now works to rescue the hostages. ⭐ IMDb 5.2",
-      "rating": 5.2
-    },
-    {
-      "id": "tt11092020",
-      "type": "movie",
-      "name": "Shadow Force",
-      "year": 2025,
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTUyZTUyOTMtOGU5OC00MmM1LTk0NWUtMjNlMTU4ZTkwMDRjXkEyXkFqcGc@._V1_SX300.jpg",
-      "description": "An estranged couple with a bounty on their heads must go on the run with their son to avoid their former employer, a unit of shadow ops that has been sent to kill them. ⭐ IMDb 4.7",
-      "rating": 4.7
     }
   ]
 }
