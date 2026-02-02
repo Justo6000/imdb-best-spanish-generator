@@ -1,3 +1,67 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt30144839",
+      "type": "movie",
+      "name": "One Battle After Another",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzBkZmQ0NjMtNTZlMy00ZjdlLTg5ODUtYWFlNGM0YzE3MTg0XkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "When their evil enemy resurfaces after 16 years, a group of ex-revolutionaries reunite to rescue the daughter of one of their own. ⭐ IMDb 7.9",
+      "rating": 7.9
+    },
+    {
+      "id": "tt16311594",
+      "type": "movie",
+      "name": "F1: The Movie",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGI0MDI4NjEtOWU3ZS00ODQyLWFhYTgtNGYxM2ZkM2Q2YjE3XkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "A Formula One driver comes out of retirement to mentor and team up with a younger driver. ⭐ IMDb 7.7",
+      "rating": 7.7
+    },
+    {
+      "id": "tt7181546",
+      "type": "movie",
+      "name": "Ballerina",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzdhZmY2OTQtYWI4OC00ZThkLTlhZjAtNzE2YzRjM2Q5YjJlXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "An assassin trained in the traditions of the Ruska Roma organization sets out to seek revenge after her father's death. ⭐ IMDb 6.8",
+      "rating": 6.8
+    },
+    {
+      "id": "tt7068946",
+      "type": "movie",
+      "name": "The Accountant 2",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjFiY2I0NTEtNjdjNy00MTljLThkOWYtMzNiYjYyMDcxYjhkXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Christian Wolff applies his brilliant mind and illegal methods to reconstruct the unsolved puzzle of a Treasury chief's murder. ⭐ IMDb 6.6",
+      "rating": 6.6
+    },
+    {
+      "id": "tt31036941",
+      "type": "movie",
+      "name": "Jurassic World: Rebirth",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjg2NTcwYWQtYzk4NS00MTJhLWEzZjItMzIxNjk3YzlkYzU0XkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Five years post-Jurassic World: Dominion (2022), an expedition braves isolated equatorial regions to extract DNA from three massive prehistoric creatures for a groundbreaking medical breakthrough. ⭐ IMDb 5.9",
+      "rating": 5.9
+    },
+    {
+      "id": "tt9150192",
+      "type": "movie",
+      "name": "A Working Man",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmQxZGIxNTYtYTQwMy00ODdkLWI0MmQtM2E0ZmIyNmYzMGMzXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Levon Cade left his profession behind to work construction and be a good dad to his daughter. But when a local girl vanishes, he's asked to return to the skills that made him a mythic figure in the shadowy world of counter-terrorism. ⭐ IMDb 5.7",
+      "rating": 5.7
+    },
+    {
+      "id": "tt3566834",
+      "type": "movie",
+      "name": "A Minecraft Movie",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzFjMzNjOTktNDBlNy00YWZhLWExYTctZDcxNDA4OWVhOTJjXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Four misfits are suddenly pulled through a mysterious portal into a bizarre cubic wonderland that thrives on imagination. To get back home they'll have to master this world while embarking on a quest with an unexpected expert craf... ⭐ IMDb 5.6",
+      "rating": 5.6
+    }
+  ]
 }
