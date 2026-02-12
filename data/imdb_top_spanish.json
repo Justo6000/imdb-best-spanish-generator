@@ -19,6 +19,24 @@
       "rating": 7.7
     },
     {
+      "id": "tt32298285",
+      "type": "movie",
+      "name": "Sirât",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2FlZGY5NGQtYjI4MC00MzgzLWFmMWMtMjhlNmZjYWRlOWIxXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "A father, accompanied by his son, goes looking for his missing daughter in North Africa. ⭐ IMDb 7.3",
+      "rating": 7.3
+    },
+    {
+      "id": "tt1493274",
+      "type": "movie",
+      "name": "Caught Stealing",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTk0YTIyYmMtMTJjOC00NmNiLTkxMTktYTU0ZDFhNjJlMTJiXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Burned-out ex-baseball player Hank Thompson unexpectedly finds himself embroiled in a dangerous struggle for survival amidst the criminal underbelly of 1990s New York City, forced to navigate a treacherous underworld he never imag... ⭐ IMDb 7",
+      "rating": 7
+    },
+    {
       "id": "tt7181546",
       "type": "movie",
       "name": "Ballerina",
@@ -28,6 +46,78 @@
       "rating": 6.8
     },
     {
+      "id": "tt30988739",
+      "type": "movie",
+      "name": "Black Bag",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzA1OWU4NDMtMDUxMC00NWI4LWJhYjUtYWQ0OGQ5MTc2NDRjXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "When intelligence agent Kathryn Woodhouse is suspected of betraying the nation, her husband - also a legendary agent - faces the ultimate test of whether to be loyal to his marriage, or his country. ⭐ IMDb 6.7",
+      "rating": 6.7
+    },
+    {
+      "id": "tt4900148",
+      "type": "movie",
+      "name": "Elio",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWE5ZDMyMWEtOTZjMi00YzFhLWE4OTEtNDc3MDMzZjFmMmIzXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant ... ⭐ IMDb 6.7",
+      "rating": 6.7
+    },
+    {
+      "id": "tt7068946",
+      "type": "movie",
+      "name": "The Accountant 2",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjFiY2I0NTEtNjdjNy00MTljLThkOWYtMzNiYjYyMDcxYjhkXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Christian Wolff applies his brilliant mind and illegal methods to reconstruct the unsolved puzzle of a Treasury chief's murder. ⭐ IMDb 6.6",
+      "rating": 6.6
+    },
+    {
+      "id": "tt32129665",
+      "type": "movie",
+      "name": "She Walks in Darkness",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzI1MGMyMWUtZmRkMC00NTg4LWFlYzYtOWFjZDIyMmJmMmI3XkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "A young Spanish civil guard goes undercover within ETA, the Basque separatist group, spending over a decade locating their hideouts in the South of France. ⭐ IMDb 6.6",
+      "rating": 6.6
+    },
+    {
+      "id": "tt23149780",
+      "type": "movie",
+      "name": "Eden",
+      "year": 2024,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmU3YjQ1YzAtMGU4OS00MWJkLTg2NGMtM2NmMmQ3NTM3NjNjXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Based on a factual account of a group of outsiders who settle on a remote island only to discover their greatest threat isn't the brutal climate or deadly wildlife, but each other. ⭐ IMDb 6.5",
+      "rating": 6.5
+    },
+    {
+      "id": "tt33474172",
+      "type": "movie",
+      "name": "A Widow's Game",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDAxYTVmMTYtOGYzYi00YjFkLTkyMGEtMzc0MTUzZmY3YzFjXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "A murder mystery about a young widow who is the prime suspect in her husband's stabbing death. ⭐ IMDb 6.2",
+      "rating": 6.2
+    },
+    {
+      "id": "tt29644189",
+      "type": "movie",
+      "name": "Black Phone 2",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTVjMzNmZGYtOWU5NS00NDYzLThhZTktZGNlODIwYWVhMDRmXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "As Finn, now 17, struggles with life after his captivity, his sister begins receiving calls in her dreams from the black phone and seeing disturbing visions of three boys being stalked at a winter camp known as Alpine Lake. ⭐ IMDb 6.1",
+      "rating": 6.1
+    },
+    {
+      "id": "tt23648788",
+      "type": "movie",
+      "name": "Contraataque",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmExM2ZiOGItMDcxZi00NDc3LTk3MmItNGQyZWNlYzBiOTI2XkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Five friends shopping at the US/Mexico border face sicario hitmen, but the targets are actually Murciélagos. ⭐ IMDb 6",
+      "rating": 6
+    },
+    {
       "id": "tt31036941",
       "type": "movie",
       "name": "Jurassic World: Rebirth",
@@ -35,6 +125,69 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BNjg2NTcwYWQtYzk4NS00MTJhLWEzZjItMzIxNjk3YzlkYzU0XkEyXkFqcGc@._V1_SX300.jpg",
       "description": "Five years post-Jurassic World: Dominion (2022), an expedition braves isolated equatorial regions to extract DNA from three massive prehistoric creatures for a groundbreaking medical breakthrough. ⭐ IMDb 5.8",
       "rating": 5.8
+    },
+    {
+      "id": "tt9150192",
+      "type": "movie",
+      "name": "A Working Man",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmQxZGIxNTYtYTQwMy00ODdkLWI0MmQtM2E0ZmIyNmYzMGMzXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Levon Cade left his profession behind to work construction and be a good dad to his daughter. But when a local girl vanishes, he's asked to return to the skills that made him a mythic figure in the shadowy world of counter-terrorism. ⭐ IMDb 5.7",
+      "rating": 5.7
+    },
+    {
+      "id": "tt3566834",
+      "type": "movie",
+      "name": "A Minecraft Movie",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzFjMzNjOTktNDBlNy00YWZhLWExYTctZDcxNDA4OWVhOTJjXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Four misfits are suddenly pulled through a mysterious portal into a bizarre cubic wonderland that thrives on imagination. To get back home they'll have to master this world while embarking on a quest with an unexpected expert craf... ⭐ IMDb 5.6",
+      "rating": 5.6
+    },
+    {
+      "id": "tt27757546",
+      "type": "movie",
+      "name": "Diablo",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzM0Mjc2NzMtMzJhNy00Nzc3LTg4Y2MtOTkzYzEwYmMzZDZkXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Kris Chaney, a recently released ex-convict embarks on a perilous mission. He kidnaps Elisa, daughter of Vicente, a powerful gangster, which puts them in danger from El Corvo, a psychopathic killer seeking revenge against Vicente'... ⭐ IMDb 5.6",
+      "rating": 5.6
+    },
+    {
+      "id": "tt33311244",
+      "type": "movie",
+      "name": "Culpa Nuestra",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzUyNmUwODItZmZjZi00YWY0LTlhZWYtYTYxMjFjOGJhMzM2XkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Nick and Noah's relationship peaks before facing events testing if they're meant to be together or should part ways. Can they overcome their past despite strong feelings, or are love and forgiveness not enough? ⭐ IMDb 5.3",
+      "rating": 5.3
+    },
+    {
+      "id": "tt27812086",
+      "type": "movie",
+      "name": "Cleaner",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmE1MzkyMDctZjgzNC00YzkxLWI1YTctY2E4YzNjNmI1YTljXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Criminal activists hijack a gala, taking 300 hostages. One extremist plans mass murder as a message to the world. An Ex-soldier turned window cleaner now works to rescue the hostages. ⭐ IMDb 5.2",
+      "rating": 5.2
+    },
+    {
+      "id": "tt11092020",
+      "type": "movie",
+      "name": "Shadow Force",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTUyZTUyOTMtOGU5OC00MmM1LTk0NWUtMjNlMTU4ZTkwMDRjXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "An estranged couple with a bounty on their heads must go on the run with their son to avoid their former employer, a unit of shadow ops that has been sent to kill them. ⭐ IMDb 4.7",
+      "rating": 4.7
+    },
+    {
+      "id": "tt32194932",
+      "type": "movie",
+      "name": "The Ritual",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjc5ZTA4ZjUtOTY2ZS00MjA0LTkxNGUtNDc1ZDVlOTU2ZGQ2XkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Two priests, one in crisis with his faith and the other confronting a turbulent past, must overcome their differences to perform a risky exorcism. ⭐ IMDb 4.5",
+      "rating": 4.5
     }
   ]
 }
