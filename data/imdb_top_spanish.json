@@ -19,6 +19,15 @@
       "rating": 7.7
     },
     {
+      "id": "tt32298285",
+      "type": "movie",
+      "name": "Sirât",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2FlZGY5NGQtYjI4MC00MzgzLWFmMWMtMjhlNmZjYWRlOWIxXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "A father, accompanied by his son, goes looking for his missing daughter in North Africa. ⭐ IMDb 7.3",
+      "rating": 7.3
+    },
+    {
       "id": "tt1493274",
       "type": "movie",
       "name": "Caught Stealing",
@@ -46,21 +55,21 @@
       "rating": 6.7
     },
     {
-      "id": "tt4900148",
-      "type": "movie",
-      "name": "Elio",
-      "year": 2025,
-      "poster": "https://m.media-amazon.com/images/M/MV5BOWE5ZDMyMWEtOTZjMi00YzFhLWE4OTEtNDc3MDMzZjFmMmIzXkEyXkFqcGc@._V1_SX300.jpg",
-      "description": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant ... ⭐ IMDb 6.7",
-      "rating": 6.7
-    },
-    {
       "id": "tt7068946",
       "type": "movie",
       "name": "The Accountant 2",
       "year": 2025,
       "poster": "https://m.media-amazon.com/images/M/MV5BYjFiY2I0NTEtNjdjNy00MTljLThkOWYtMzNiYjYyMDcxYjhkXkEyXkFqcGc@._V1_SX300.jpg",
       "description": "Christian Wolff applies his brilliant mind and illegal methods to reconstruct the unsolved puzzle of a Treasury chief's murder. ⭐ IMDb 6.6",
+      "rating": 6.6
+    },
+    {
+      "id": "tt4900148",
+      "type": "movie",
+      "name": "Elio",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWE5ZDMyMWEtOTZjMi00YzFhLWE4OTEtNDc3MDMzZjFmMmIzXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant ... ⭐ IMDb 6.6",
       "rating": 6.6
     },
     {
@@ -125,6 +134,15 @@
       "poster": "https://m.media-amazon.com/images/M/MV5BMmE1MzkyMDctZjgzNC00YzkxLWI1YTctY2E4YzNjNmI1YTljXkEyXkFqcGc@._V1_SX300.jpg",
       "description": "Criminal activists hijack a gala, taking 300 hostages. One extremist plans mass murder as a message to the world. An Ex-soldier turned window cleaner now works to rescue the hostages. ⭐ IMDb 5.2",
       "rating": 5.2
+    },
+    {
+      "id": "tt11092020",
+      "type": "movie",
+      "name": "Shadow Force",
+      "year": 2025,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTUyZTUyOTMtOGU5OC00MmM1LTk0NWUtMjNlMTU4ZTkwMDRjXkEyXkFqcGc@._V1_SX300.jpg",
+      "description": "An estranged couple with a bounty on their heads must go on the run with their son to avoid their former employer, a unit of shadow ops that has been sent to kill them. ⭐ IMDb 4.7",
+      "rating": 4.7
     }
   ]
 }
